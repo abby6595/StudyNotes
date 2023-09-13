@@ -1,0 +1,46 @@
+Below is a step-by-step guide to help you write a program to set environment variables on your Mac:
+
+Choose a Scripting Language: For our purposes, we will use a shell script (bash).
+
+Create the Script:
+
+Open the Terminal on your Mac (you can find it in the Applications → Utilities folder).
+Navigate to a directory where you want to create the script. For instance, if you want to create it in your home directory, just type cd ~.
+Use a text editor to create the script. You can use nano for simplicity: nano setenv.sh.
+Write the Script:
+
+In the editor, paste or type the following:
+
+`#!/bin/bash
+
+# Setting environment variables
+export MY_VARIABLE="This is a test variable."
+# Add more environment variables using the export command as needed`
+
+Save and Exit:
+
+If you're using nano:
+
+Press CTRL + O to write the changes.
+Press Enter to confirm.
+Press CTRL + X to exit the editor.
+
+Make the Script Executable:
+
+Still in the terminal, make your script executable by running:
+`chmod +x setenv.sh`
+
+chmod is a command in Unix and Unix-like operating systems that stands for "change mode". 
+It is used to set or modify the permissions associated with files and directories. 
+These permissions determine who can read, write, or execute a given file or directory.
+
+Using Numeric Mode:
+You can set permissions using octal (base-8) notation:
+
+4: read (r)
+2: write (w)
+1: execute (x)
+For example:
+
+`chmod 755 filename` sets the permissions of filename to rwxr-xr-x. 
+Here, the owner has read, write, and execute permissions, while the group and others only have read and execute permissions.
