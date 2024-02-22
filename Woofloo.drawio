@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T16:12:32.402Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="B7NtQigEV50kWLgHLA6Y" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-22T16:15:07.575Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="klkTu8EAJRiysFCRo7Zz" version="23.1.5" type="github">
   <diagram name="Page-1" id="vPZiWdD-PB54DvkDCxN7">
     <mxGraphModel dx="1509" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -174,8 +174,8 @@
             <mxPoint x="183" y="1455" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oWpsuCF8S4G1BgzhmDhQ-92" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Communication&lt;br&gt;- BLE&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;strokeWidth=3;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="262.5" y="1400" width="115" height="50" as="geometry" />
+        <mxCell id="oWpsuCF8S4G1BgzhmDhQ-92" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;User CommunicationInterface&lt;br&gt;- BLE&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;strokeWidth=3;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="240" y="1400" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oWpsuCF8S4G1BgzhmDhQ-95" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="oWpsuCF8S4G1BgzhmDhQ-51" target="oWpsuCF8S4G1BgzhmDhQ-92" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
